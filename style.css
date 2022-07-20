@@ -2,9 +2,10 @@ body{
     margin: 0;
     padding: 0;
 }
+/*header section start*/
 header{
     display:flex;
-    justify-content: center;
+    
     background-color: rgb(40, 40, 40);
     border-radius: 10px;
     margin: 50px 70px;
@@ -13,13 +14,20 @@ header{
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 0px;
     justify-content: space-evenly;
 }
 .banner-image{
-    height: 600px;
-    width: 380px;
+ margin-left: 10;
+    height: 500px;
+    width: 300px;
+    transition: transform 1s;
+    
+}
+
+.banner-image:hover{
+    transform: translate(100px, 40px);
 }
 .banner-title{
     margin: 20px;
@@ -33,10 +41,13 @@ header{
 }
 
 .banner-title p{
-    color: white;
-    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
-    font-family: poppins;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    
 }
 
 
@@ -49,5 +60,15 @@ header{
     font: size 25px;
     padding: 20px;
     width: 200px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
 
 }
+
+.button-animation span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+/*header section ends*/
