@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    margin: 50px 70px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+.banner-image{
+    height: 600px;
+    width: 380px;
+}
+.banner-title{
+    margin: 20px;
+}
+
+.banner-title h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+.banner-title p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: poppins;
+}
+
+
+.button-animation{
+    border-radius: 4px;
+    background-color: crimson;
+    border: none;
+    text-align:center;
+    color: white;
+    font: size 25px;
+    padding: 20px;
+    width: 200px;
+
+}
